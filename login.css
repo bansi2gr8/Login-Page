@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body{
+    background: url(https://wallpapers.com/images/featured/black-3d-bqeujlzpj3p2e505.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid;
+}
+
+.wrapper{
+    width: 380px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wrapper .title{
+    border: 1px solid #fff;
+    line-height: 80px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border:  1px solid lightgray;
+    font-size: 16px;
+}
+
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .button input{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: black;
+    border: 1px solid black;
+    cursor: pointer;
+} 
